@@ -50,7 +50,7 @@
                                                         <constraint firstAttribute="height" constant="30" id="sUA-hL-FGi"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -159,14 +159,109 @@
                                     <constraint firstItem="ZsO-JK-Xrz" firstAttribute="centerY" secondItem="98e-oh-q3u" secondAttribute="centerY" constant="10" id="qve-bB-sEM"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EgY-KN-8xM">
+                                <rect key="frame" x="0.0" y="513" width="320" height="55"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pnQ-ou-Phm">
+                                        <rect key="frame" x="10" y="6" width="38" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="5Fn-gn-aEQ"/>
+                                            <constraint firstAttribute="width" constant="38" id="vHp-0x-U8q"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="avatar-placehoder"/>
+                                        <connections>
+                                            <action selector="btnAvatarAction:" destination="oLo-Z7-g5i" eventType="touchUpInside" id="c6g-8p-rOj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t6r-As-48W">
+                                        <rect key="frame" x="284" y="14" width="28" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="1nY-ln-Hac"/>
+                                            <constraint firstAttribute="width" constant="28" id="86q-zx-5lu"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="next"/>
+                                        <connections>
+                                            <action selector="btn_Next:" destination="oLo-Z7-g5i" eventType="touchUpInside" id="PAD-he-Mpt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHS-Ay-UH8">
+                                        <rect key="frame" x="202" y="14" width="28" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="3J2-N8-CzI"/>
+                                            <constraint firstAttribute="width" constant="28" id="Pwt-cJ-Pms"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="preview"/>
+                                        <connections>
+                                            <action selector="btn_Preview:" destination="oLo-Z7-g5i" eventType="touchUpInside" id="QXa-uF-UQk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfP-aP-Xmo">
+                                        <rect key="frame" x="238" y="9" width="38" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="gRN-Lx-Wyk"/>
+                                            <constraint firstAttribute="width" constant="38" id="h8P-LW-gOq"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="btn_Play_and_Stop:" destination="oLo-Z7-g5i" eventType="touchUpInside" id="oCb-d8-TNk"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thiên Tôn Pro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mPM-DN-Wzo">
+                                        <rect key="frame" x="56" y="4" width="138" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="k5N-Fi-L7G"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thiên Tôn Pro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdg-LK-YkT">
+                                        <rect key="frame" x="56" y="28" width="138" height="13"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="13" id="XEj-h3-h4o"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.7843137255" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="pnQ-ou-Phm" firstAttribute="centerY" secondItem="EgY-KN-8xM" secondAttribute="centerY" constant="-3" id="0Fo-1M-iZl"/>
+                                    <constraint firstItem="t6r-As-48W" firstAttribute="leading" secondItem="jfP-aP-Xmo" secondAttribute="trailing" constant="8" id="5Uq-lS-JlP"/>
+                                    <constraint firstItem="t6r-As-48W" firstAttribute="centerY" secondItem="EgY-KN-8xM" secondAttribute="centerY" id="6oO-Xo-5M6"/>
+                                    <constraint firstItem="jfP-aP-Xmo" firstAttribute="centerY" secondItem="EgY-KN-8xM" secondAttribute="centerY" id="7Vv-Dj-zUP"/>
+                                    <constraint firstAttribute="trailing" secondItem="t6r-As-48W" secondAttribute="trailing" constant="8" id="Amf-rZ-iKj"/>
+                                    <constraint firstAttribute="height" constant="55" id="Bod-2c-1yJ"/>
+                                    <constraint firstItem="jfP-aP-Xmo" firstAttribute="leading" secondItem="lHS-Ay-UH8" secondAttribute="trailing" constant="8" id="LfC-oy-LVc"/>
+                                    <constraint firstItem="lHS-Ay-UH8" firstAttribute="leading" secondItem="cdg-LK-YkT" secondAttribute="trailing" constant="8" id="MVu-D8-OGt"/>
+                                    <constraint firstItem="pnQ-ou-Phm" firstAttribute="leading" secondItem="EgY-KN-8xM" secondAttribute="leading" constant="10" id="MrX-h3-oOX"/>
+                                    <constraint firstItem="cdg-LK-YkT" firstAttribute="leading" secondItem="pnQ-ou-Phm" secondAttribute="trailing" constant="8" id="Qad-xI-W16"/>
+                                    <constraint firstItem="cdg-LK-YkT" firstAttribute="top" secondItem="mPM-DN-Wzo" secondAttribute="bottom" id="Vb8-fq-LaA"/>
+                                    <constraint firstItem="lHS-Ay-UH8" firstAttribute="centerY" secondItem="EgY-KN-8xM" secondAttribute="centerY" id="YlD-qZ-KFe"/>
+                                    <constraint firstItem="t6r-As-48W" firstAttribute="leading" secondItem="jfP-aP-Xmo" secondAttribute="trailing" constant="8" id="eAl-l8-ZnD"/>
+                                    <constraint firstItem="mPM-DN-Wzo" firstAttribute="centerY" secondItem="EgY-KN-8xM" secondAttribute="centerY" constant="-12" id="gtb-w5-sUn"/>
+                                    <constraint firstItem="lHS-Ay-UH8" firstAttribute="leading" secondItem="mPM-DN-Wzo" secondAttribute="trailing" constant="8" id="h3m-MU-nVe"/>
+                                    <constraint firstItem="jfP-aP-Xmo" firstAttribute="leading" secondItem="lHS-Ay-UH8" secondAttribute="trailing" constant="8" id="ko4-07-uPS"/>
+                                    <constraint firstItem="mPM-DN-Wzo" firstAttribute="leading" secondItem="pnQ-ou-Phm" secondAttribute="trailing" constant="8" id="pbY-q7-HBq"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="EgY-KN-8xM" firstAttribute="leading" secondItem="cPe-VO-ocl" secondAttribute="leading" id="A3d-lg-2tP"/>
                             <constraint firstItem="98e-oh-q3u" firstAttribute="leading" secondItem="cPe-VO-ocl" secondAttribute="leading" id="C7O-4X-2ym"/>
                             <constraint firstItem="98e-oh-q3u" firstAttribute="top" secondItem="cPe-VO-ocl" secondAttribute="top" id="Ht0-Tv-S6f"/>
                             <constraint firstAttribute="trailing" secondItem="98e-oh-q3u" secondAttribute="trailing" id="L2D-zP-my4"/>
+                            <constraint firstItem="4aJ-WE-0BW" firstAttribute="top" secondItem="EgY-KN-8xM" secondAttribute="bottom" id="aM6-u8-uUQ"/>
+                            <constraint firstAttribute="trailing" secondItem="EgY-KN-8xM" secondAttribute="trailing" id="xRH-d7-ZzY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnAvatar" destination="pnQ-ou-Phm" id="ZuF-H7-Xbn"/>
+                        <outlet property="btn_Play_and_Stop" destination="jfP-aP-Xmo" id="Rgj-ip-b5x"/>
+                        <outlet property="lb_namesong" destination="mPM-DN-Wzo" id="cXT-yK-LKR"/>
+                        <outlet property="lb_singer" destination="cdg-LK-YkT" id="hl0-Wn-djm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="124-d3-6Ic" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -174,6 +269,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="avatar-placehoder" width="384" height="384"/>
         <image name="btn-menu" width="33" height="30"/>
+        <image name="next" width="24" height="24"/>
+        <image name="preview" width="24" height="24"/>
     </resources>
 </document>
