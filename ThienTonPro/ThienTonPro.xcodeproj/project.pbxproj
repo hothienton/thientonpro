@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED3C5AA51D18FDA200772E5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3C5AA41D18FDA200772E5A /* main.m */; };
+		ED3C5AA81D18FDA200772E5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3C5AA71D18FDA200772E5A /* AppDelegate.m */; };
+		ED3C5AB01D18FDA200772E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3C5AAF1D18FDA200772E5A /* Assets.xcassets */; };
+		ED3C5AB31D18FDA200772E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3C5AB11D18FDA200772E5A /* LaunchScreen.storyboard */; };
+		ED3C5AC71D18FEA300772E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3C5AC61D18FEA300772E5A /* Main.storyboard */; };
+		ED3C5AD11D18FFB900772E5A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3C5AD01D18FFB900772E5A /* MainViewController.m */; };
+		ED3C5AD41D18FFD700772E5A /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3C5AD31D18FFD700772E5A /* LeftSlideViewController.m */; };
+		ED8990771D192843005EB077 /* MFSideMenuContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8990721D192843005EB077 /* MFSideMenuContainerViewController.m */; };
+		ED8990781D192843005EB077 /* MFSideMenuShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8990741D192843005EB077 /* MFSideMenuShadow.m */; };
+		ED8990791D192843005EB077 /* UIViewController+MFSideMenuAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8990761D192843005EB077 /* UIViewController+MFSideMenuAdditions.m */; };
+		ED89907C1D192F1D005EB077 /* CustomLeftMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED89907B1D192F1D005EB077 /* CustomLeftMenu.m */; };
+		ED89907F1D193120005EB077 /* HeaderLeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED89907E1D193120005EB077 /* HeaderLeftCell.m */; };
+		ED8990841D194878005EB077 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8990831D194878005EB077 /* VideoViewController.m */; };
+		ED8990861D1948B1005EB077 /* Video.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8990851D1948B1005EB077 /* Video.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED3C5AA01D18FDA200772E5A /* ThienTonPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThienTonPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3C5AA41D18FDA200772E5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED3C5AA61D18FDA200772E5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED3C5AA71D18FDA200772E5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED3C5AAF1D18FDA200772E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED3C5AB21D18FDA200772E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED3C5AB41D18FDA200772E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3C5AC61D18FEA300772E5A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		ED3C5ACF1D18FFB900772E5A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		ED3C5AD01D18FFB900772E5A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		ED3C5AD21D18FFD700772E5A /* LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlideViewController.h; sourceTree = "<group>"; };
+		ED3C5AD31D18FFD700772E5A /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
+		ED8990701D192843005EB077 /* MFSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenu.h; sourceTree = "<group>"; };
+		ED8990711D192843005EB077 /* MFSideMenuContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuContainerViewController.h; sourceTree = "<group>"; };
+		ED8990721D192843005EB077 /* MFSideMenuContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuContainerViewController.m; sourceTree = "<group>"; };
+		ED8990731D192843005EB077 /* MFSideMenuShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuShadow.h; sourceTree = "<group>"; };
+		ED8990741D192843005EB077 /* MFSideMenuShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuShadow.m; sourceTree = "<group>"; };
+		ED8990751D192843005EB077 /* UIViewController+MFSideMenuAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MFSideMenuAdditions.h"; sourceTree = "<group>"; };
+		ED8990761D192843005EB077 /* UIViewController+MFSideMenuAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MFSideMenuAdditions.m"; sourceTree = "<group>"; };
+		ED89907A1D192F1D005EB077 /* CustomLeftMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLeftMenu.h; sourceTree = "<group>"; };
+		ED89907B1D192F1D005EB077 /* CustomLeftMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLeftMenu.m; sourceTree = "<group>"; };
+		ED89907D1D193120005EB077 /* HeaderLeftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderLeftCell.h; sourceTree = "<group>"; };
+		ED89907E1D193120005EB077 /* HeaderLeftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderLeftCell.m; sourceTree = "<group>"; };
+		ED8990801D193443005EB077 /* DefineMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineMacros.h; sourceTree = "<group>"; };
+		ED8990821D194878005EB077 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		ED8990831D194878005EB077 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		ED8990851D1948B1005EB077 /* Video.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Video.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED3C5A9D1D18FDA200772E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED3C5A971D18FDA200772E5A = {
+			isa = PBXGroup;
+			children = (
+				ED3C5AC81D18FEF300772E5A /* Library */,
+				ED3C5AC11D18FE8600772E5A /* Resource */,
+				ED3C5ABB1D18FE1400772E5A /* Framework */,
+				ED3C5ABE1D18FE1400772E5A /* SupportFile */,
+				ED3C5AA21D18FDA200772E5A /* ThienTonPro */,
+				ED3C5AA11D18FDA200772E5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED3C5AA11D18FDA200772E5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED3C5AA01D18FDA200772E5A /* ThienTonPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED3C5AA21D18FDA200772E5A /* ThienTonPro */ = {
+			isa = PBXGroup;
+			children = (
+				ED3C5AA61D18FDA200772E5A /* AppDelegate.h */,
+				ED3C5AA71D18FDA200772E5A /* AppDelegate.m */,
+				ED3C5AAF1D18FDA200772E5A /* Assets.xcassets */,
+				ED3C5AB11D18FDA200772E5A /* LaunchScreen.storyboard */,
+				ED3C5AB41D18FDA200772E5A /* Info.plist */,
+				ED3C5AA31D18FDA200772E5A /* Supporting Files */,
+			);
+			path = ThienTonPro;
+			sourceTree = "<group>";
+		};
+		ED3C5AA31D18FDA200772E5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED3C5AA41D18FDA200772E5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED3C5ABB1D18FE1400772E5A /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		ED3C5ABE1D18FE1400772E5A /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				ED8990801D193443005EB077 /* DefineMacros.h */,
+			);
+			path = SupportFile;
+			sourceTree = "<group>";
+		};
+		ED3C5AC11D18FE8600772E5A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				ED3C5AC21D18FE8600772E5A /* Classes */,
+				ED3C5AC31D18FE8600772E5A /* UI */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		ED3C5AC21D18FE8600772E5A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ED3C5ACE1D18FFA700772E5A /* LeftSlideViewController */,
+				ED3C5ACD1D18FF7E00772E5A /* MainViewController */,
+				ED8990811D194863005EB077 /* VideoViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ED3C5AC31D18FE8600772E5A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				ED3C5AC41D18FE8600772E5A /* Storyboard */,
+				ED3C5AC51D18FE8600772E5A /* Xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		ED3C5AC41D18FE8600772E5A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				ED3C5AC61D18FEA300772E5A /* Main.storyboard */,
+				ED8990851D1948B1005EB077 /* Video.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		ED3C5AC51D18FE8600772E5A /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		ED3C5AC81D18FEF300772E5A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				ED89906F1D192843005EB077 /* MFSideMenu */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		ED3C5ACD1D18FF7E00772E5A /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ED3C5ACF1D18FFB900772E5A /* MainViewController.h */,
+				ED3C5AD01D18FFB900772E5A /* MainViewController.m */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		ED3C5ACE1D18FFA700772E5A /* LeftSlideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ED3C5AD21D18FFD700772E5A /* LeftSlideViewController.h */,
+				ED3C5AD31D18FFD700772E5A /* LeftSlideViewController.m */,
+				ED89907D1D193120005EB077 /* HeaderLeftCell.h */,
+				ED89907E1D193120005EB077 /* HeaderLeftCell.m */,
+				ED89907A1D192F1D005EB077 /* CustomLeftMenu.h */,
+				ED89907B1D192F1D005EB077 /* CustomLeftMenu.m */,
+			);
+			path = LeftSlideViewController;
+			sourceTree = "<group>";
+		};
+		ED89906F1D192843005EB077 /* MFSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				ED8990701D192843005EB077 /* MFSideMenu.h */,
+				ED8990711D192843005EB077 /* MFSideMenuContainerViewController.h */,
+				ED8990721D192843005EB077 /* MFSideMenuContainerViewController.m */,
+				ED8990731D192843005EB077 /* MFSideMenuShadow.h */,
+				ED8990741D192843005EB077 /* MFSideMenuShadow.m */,
+				ED8990751D192843005EB077 /* UIViewController+MFSideMenuAdditions.h */,
+				ED8990761D192843005EB077 /* UIViewController+MFSideMenuAdditions.m */,
+			);
+			path = MFSideMenu;
+			sourceTree = "<group>";
+		};
+		ED8990811D194863005EB077 /* VideoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ED8990821D194878005EB077 /* VideoViewController.h */,
+				ED8990831D194878005EB077 /* VideoViewController.m */,
+			);
+			path = VideoViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED3C5A9F1D18FDA200772E5A /* ThienTonPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3C5AB71D18FDA200772E5A /* Build configuration list for PBXNativeTarget "ThienTonPro" */;
+			buildPhases = (
+				ED3C5A9C1D18FDA200772E5A /* Sources */,
+				ED3C5A9D1D18FDA200772E5A /* Frameworks */,
+				ED3C5A9E1D18FDA200772E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThienTonPro;
+			productName = ThienTonPro;
+			productReference = ED3C5AA01D18FDA200772E5A /* ThienTonPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED3C5A981D18FDA200772E5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = vuvantiep;
+				TargetAttributes = {
+					ED3C5A9F1D18FDA200772E5A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = ED3C5A9B1D18FDA200772E5A /* Build configuration list for PBXProject "ThienTonPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED3C5A971D18FDA200772E5A;
+			productRefGroup = ED3C5AA11D18FDA200772E5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED3C5A9F1D18FDA200772E5A /* ThienTonPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED3C5A9E1D18FDA200772E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3C5AC71D18FEA300772E5A /* Main.storyboard in Resources */,
+				ED3C5AB31D18FDA200772E5A /* LaunchScreen.storyboard in Resources */,
+				ED8990861D1948B1005EB077 /* Video.storyboard in Resources */,
+				ED3C5AB01D18FDA200772E5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED3C5A9C1D18FDA200772E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8990841D194878005EB077 /* VideoViewController.m in Sources */,
+				ED3C5AA81D18FDA200772E5A /* AppDelegate.m in Sources */,
+				ED3C5AD41D18FFD700772E5A /* LeftSlideViewController.m in Sources */,
+				ED3C5AA51D18FDA200772E5A /* main.m in Sources */,
+				ED89907F1D193120005EB077 /* HeaderLeftCell.m in Sources */,
+				ED3C5AD11D18FFB900772E5A /* MainViewController.m in Sources */,
+				ED8990781D192843005EB077 /* MFSideMenuShadow.m in Sources */,
+				ED8990771D192843005EB077 /* MFSideMenuContainerViewController.m in Sources */,
+				ED89907C1D192F1D005EB077 /* CustomLeftMenu.m in Sources */,
+				ED8990791D192843005EB077 /* UIViewController+MFSideMenuAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED3C5AB11D18FDA200772E5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3C5AB21D18FDA200772E5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED3C5AB51D18FDA200772E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED3C5AB61D18FDA200772E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED3C5AB81D18FDA200772E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThienTonPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vuvantiep.ThienTonPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED3C5AB91D18FDA200772E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThienTonPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vuvantiep.ThienTonPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED3C5A9B1D18FDA200772E5A /* Build configuration list for PBXProject "ThienTonPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3C5AB51D18FDA200772E5A /* Debug */,
+				ED3C5AB61D18FDA200772E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3C5AB71D18FDA200772E5A /* Build configuration list for PBXNativeTarget "ThienTonPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3C5AB81D18FDA200772E5A /* Debug */,
+				ED3C5AB91D18FDA200772E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED3C5A981D18FDA200772E5A /* Project object */;
+}

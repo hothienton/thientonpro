@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Video View Controller-->
+        <scene sceneID="Ncf-rZ-SSN">
+            <objects>
+                <viewController storyboardIdentifier="VideoViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XMY-Vl-bx5" customClass="VideoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pHV-wx-9O6"/>
+                        <viewControllerLayoutGuide type="bottom" id="2J6-41-veM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cVj-xB-gYb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XwK-Tv-yFP">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ieu-me-eld">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="rM9-S9-VXR"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="btnLeftSideAction:" destination="XMY-Vl-bx5" eventType="touchUpInside" id="dBy-xb-Wa4"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video cá nhân" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSJ-dw-LWv">
+                                        <rect key="frame" x="60" y="33" width="200" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="MwY-Ru-ihH"/>
+                                            <constraint firstAttribute="height" constant="25" id="hdE-1y-1cU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="22"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btn-menu" translatesAutoresizingMaskIntoConstraints="NO" id="WVa-nq-l2i">
+                                        <rect key="frame" x="10" y="33" width="30" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="6O7-xv-Xbh"/>
+                                            <constraint firstAttribute="width" constant="30" id="sm2-Aa-2QP"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.7843137255" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="WVa-nq-l2i" firstAttribute="leading" secondItem="XwK-Tv-yFP" secondAttribute="leading" constant="10" id="Kb3-ig-Ivc"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ieu-me-eld" secondAttribute="bottom" id="SeB-OZ-umJ"/>
+                                    <constraint firstItem="Ieu-me-eld" firstAttribute="top" secondItem="XwK-Tv-yFP" secondAttribute="top" id="Ypc-Z2-W28"/>
+                                    <constraint firstItem="dSJ-dw-LWv" firstAttribute="centerY" secondItem="XwK-Tv-yFP" secondAttribute="centerY" constant="10" id="gVf-fC-rlC"/>
+                                    <constraint firstItem="WVa-nq-l2i" firstAttribute="centerY" secondItem="XwK-Tv-yFP" secondAttribute="centerY" constant="10" id="hPK-CI-bqv"/>
+                                    <constraint firstAttribute="height" constant="70" id="j3E-JZ-EoJ"/>
+                                    <constraint firstItem="Ieu-me-eld" firstAttribute="leading" secondItem="XwK-Tv-yFP" secondAttribute="leading" id="jud-iT-HMU"/>
+                                    <constraint firstItem="dSJ-dw-LWv" firstAttribute="centerX" secondItem="XwK-Tv-yFP" secondAttribute="centerX" id="qhT-ON-tue"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="XwK-Tv-yFP" secondAttribute="trailing" id="Abc-HT-oJA"/>
+                            <constraint firstItem="XwK-Tv-yFP" firstAttribute="top" secondItem="cVj-xB-gYb" secondAttribute="top" id="FOI-o0-qgy"/>
+                            <constraint firstItem="XwK-Tv-yFP" firstAttribute="leading" secondItem="cVj-xB-gYb" secondAttribute="leading" id="a6N-Os-daF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eVI-Ka-Rw2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="65.066666666666663" y="181.75999999999999"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn-menu" width="33" height="30"/>
+    </resources>
+</document>
